@@ -1,0 +1,11 @@
+{
+        "produtos": [
+        {
+        "img": "../../assets/shopping.webp",
+        "nome": "Arroz Qualitá",
+        "descricao": "Saco de Arroz Qualitá 1 kg",
+        "id": 1,
+        "valor": 30
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+<div class="container d-flex justify-content-between tamanho">
+    <div class="card" style="width: 18rem;" *ngFor="let p of produtos">
+        <img src="{{p.img}}" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5 class="card-title">{{p.nome}}</h5>
+          <h5 class="card-title">{{p.valor | currency : ' BRL '}}</h5>
+          <h6 class="card-text text-start">{{p.descricao}}</h6>
+            <a href="#" class="btn-primary d-flex justify-container-center" (click)="Comprar()">Comprar</a>
+          </div>
+    </div>
+</div>
